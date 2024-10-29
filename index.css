@@ -1,0 +1,137 @@
+*{
+   margin: none;
+   padding: none;
+   font-family: serif;
+   background-color: rgb(41, 38, 38);
+   color: white;
+}
+
+body{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: black;
+}
+
+/*.new{
+ display: flex;
+flex-direction:ltr;
+flex-grow: inherit;
+align-items: center;
+gap: 100px;
+border-radius: 40px;
+border:3px solid;
+} */
+
+.logo{
+ 
+   padding-left:20px ;
+   padding-right:20px ;
+   font-size:20px;
+
+  margin-left: 40px;
+  padding: none;
+  
+}
+
+
+#bod{
+display: flex;      
+flex-direction:ltr;
+align-items:center;
+gap: 100px;
+
+}
+.logo h1{
+    color: red;
+    font-family: Arial black;
+    text-shadow: 7px 0px 0px  rgb(20, 7, 7);
+    padding: none;
+    animation-name:myanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+  
+}
+
+@keyframes myanim{
+    0%{
+        color:aqua;
+    };
+    20%{
+        color:rgb(255, 251, 5);
+       
+    };
+    50%{
+        color:rgb(255, 255, 255);
+    };
+    70%{
+        color:rgb(226, 43, 59);
+    };
+    90%{
+        color:rgb(65, 17, 179);
+    };
+ 
+
+}
+
+.logo h1 span{
+   font-size: 80%;
+}
+
+.Menu{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+} 
+
+.Menu:hover{
+  color: red;
+ transition-duration: 0.5s;
+ box-shadow: 7px 5px 5px black ; 
+}
+.Menu a{
+    font-size:16px;
+    font-family: arial;
+    text-decoration: none;
+   box-shadow: 7px 2px 5px black;
+   border-radius: 30px;
+   margin-left: 20px;
+   
+}
+.Menu a:hover{
+    color:red;
+    transition-duration:0.5s;
+   
+}
+
+.content_1{
+display: flex;
+flex-direction: row;
+margin-top:  70px;
+gap:100px;
+justify-content: inherit;
+
+}
+
+
+    @font-face {
+        font-family: "Trickster";
+        src:url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
+          
+      }
+
+
+.content_1 p{
+/* border: 3px solid; */
+
+margin-left: 60px;
+margin-top: 0px;
+text-align: justify;
+padding: 10px 10px 10px 10px;
+font-size: 13px;
+box-shadow: 2px 3px 8px black;
+border-radius: 30px;
+font-family: "Trickster",cursive;
+}
